@@ -2,13 +2,13 @@
 
 
 /**
- * main - Entry point
+ * main - This is the entry point of the project
  *
  * Return: Always 0
  */
 
 int main(void)
 {
-puts("\"programming is like building a multilingual puzzle");
+puts("\"Programming is like building a multilingual puzzle");
 return (0);
 }
