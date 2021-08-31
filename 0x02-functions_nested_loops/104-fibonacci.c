@@ -3,7 +3,7 @@
 /**
 * main - prints the first 98 fibonacci numbers
 *
-* Return: Always 0
+* Return: Always 0.
 */
 int main(void)
 {
@@ -24,7 +24,7 @@ n1 = n2;
 n2 = fn;
 }
 else
-}
+{
 if (boolean2)
 {
 n11 = n1 % 1000000000;
@@ -34,7 +34,7 @@ n2 = n2 / 1000000000;
 boolean2 = 0;
 }
 fn2 = (n11 + n22);
-fn = n1 +n2 + (fn2 / 1000000000);
+fn = n1 + n2 + (fn2 / 1000000000);
 printf(", %ld", fn);
 printf("%ld", fn2 % 1000000000);
 n1 = n2;
